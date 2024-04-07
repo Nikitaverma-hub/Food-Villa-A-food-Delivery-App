@@ -8,9 +8,9 @@ const Intro = () => {
         id="shadow-2"
       >
         <h1 className="text-[28px] font-bold font-PT">About Me</h1>
-        <img src={require('../Images/user.jpeg')}
+        {/* <img src={require('../Images/user.jpeg')}
             className=" rounded-full m-4 h-[150px] w-[150px] "
-        ></img>
+        ></img> */}
         <p className="text-[18px] mb-2"> 
           React.js | Next.js | 20k+ @Linkdin | JavaScript | Frontend Developer
         </p>

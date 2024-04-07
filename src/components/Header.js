@@ -37,11 +37,11 @@ const Header = () => {
               Home
             </li>
           </Link>
-          <Link to="/about">
-            <li className="text-Primary hover:text-Orange font-bold h-4 w-16 pt-2 text-center rounded-lg">
+          {/* <Link to="/about">
+<            li className="text-Primary hover:text-Orange font-bold h-4 w-16 pt-2 text-center rounded-lg">
               About
             </li>
-          </Link>
+          </Link> */}
 
           <Link to="/contact">
             <li className="text-Primary hover:text-Orange font-bold h-4 w-20 pt-2 text-center rounded-lg">

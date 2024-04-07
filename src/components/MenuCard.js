@@ -1,5 +1,5 @@
 
-import user from "../Images/user.jpeg";
+import user from "../Images/user.png";
 import { useDispatch } from "react-redux";
 
 import { useState } from "react";

@@ -3028,7 +3028,7 @@ const Applayout = ()=>{
         columnNumber: 5
     }, undefined);
 };
-_s(Applayout, "r+Ft1LWFx7Ggxu/fhvTKP6egqBY=", false, function() {
+_s(Applayout, "A+quqrBaHS1sUjrE6ieoGmJ7CgA=", false, function() {
     return [
         (0, _reactRouterDom.useRouteError),
         (0, _reactRouterDom.useParams)
@@ -27412,21 +27412,6 @@ const Header = ()=>{
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/about",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                className: "text-Primary hover:text-Orange font-bold h-4 w-16 pt-2 text-center rounded-lg",
-                                children: "About"
-                            }, void 0, false, {
-                                fileName: "src/components/Header.js",
-                                lineNumber: 41,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 40,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                             to: "/contact",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 className: "text-Primary hover:text-Orange font-bold h-4 w-20 pt-2 text-center rounded-lg",
@@ -36943,14 +36928,6 @@ const Intro = ()=>{
                         lineNumber: 10,
                         columnNumber: 9
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: require("b6ac56e826dc075e"),
-                        className: " rounded-full m-4 h-[150px] w-[150px] "
-                    }, void 0, false, {
-                        fileName: "src/components/Intro.js",
-                        lineNumber: 11,
-                        columnNumber: 9
-                    }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         className: "text-[18px] mb-2",
                         children: "React.js | Next.js | 20k+ @Linkdin | JavaScript | Frontend Developer"
@@ -37163,10 +37140,7 @@ $RefreshReg$(_c, "Intro");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","b6ac56e826dc075e":"6OX9e","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6OX9e":[function(require,module,exports) {
-module.exports = require("5eef2fb89cf63fbd").getBundleURL("kIKgZ") + "user.03891aa4.jpeg" + "?" + Date.now();
-
-},{"5eef2fb89cf63fbd":"lgJ39"}],"kvula":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kvula":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0ba4 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -42443,8 +42417,8 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _userJpeg = require("../Images/user.jpeg");
-var _userJpegDefault = parcelHelpers.interopDefault(_userJpeg);
+var _userPng = require("../Images/user.png");
+var _userPngDefault = parcelHelpers.interopDefault(_userPng);
 var _reactRedux = require("react-redux");
 var _react = require("react");
 var _constant = require("../../constant");
@@ -42456,7 +42430,7 @@ const MenuCard = (props)=>{
     const { dishData } = props;
     const { name, price, description, imageId, defaultPrice } = dishData?.card?.info;
     const [itemCount, setItemCount] = (0, _react.useState)(0);
-    const imageSource = imageId === undefined ? (0, _userJpegDefault.default) : (0, _constant.swiggyIMageCDN) + imageId;
+    const imageSource = imageId === undefined ? (0, _userPngDefault.default) : (0, _constant.swiggyIMageCDN) + imageId;
     const dispatch = (0, _reactRedux.useDispatch)();
     const handleClick = (item)=>{
         // Dispatch an action
@@ -42568,7 +42542,10 @@ $RefreshReg$(_c, "MenuCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","../Images/user.jpeg":"6OX9e","react-redux":"bdVon","react":"21dqq","../../constant":"hVDs4","../utils/cartSlice":"5RXlr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jqPPz":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-redux":"bdVon","react":"21dqq","../../constant":"hVDs4","../utils/cartSlice":"5RXlr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../Images/user.png":"dKuVu"}],"dKuVu":[function(require,module,exports) {
+module.exports = require("47dc9107fa7ea321").getBundleURL("kIKgZ") + "user.1a020c85.png" + "?" + Date.now();
+
+},{"47dc9107fa7ea321":"lgJ39"}],"jqPPz":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8a55 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
